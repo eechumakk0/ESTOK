@@ -1,15 +1,41 @@
-html, body {
-    height: 100%;
-    display: flex;
-    justify-content: center;
+/* Голова */ 
+
+header {
+    background-color: black;
+    color: white;
+    margin: 0 0 15px 0;
 }
 
-main {
-    width: 1800px;
-    height: 1080px;
-    border: 1px red solid;
+.header-section {
     display: flex;
-    justify-content: center;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+ul>li {
+    list-style-type: none;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: rgb(177, 224, 220)
+}
+
+
+
+/* Тело */ 
+main {
+    background-color: rgb(187, 187, 206);
+}
+
+#p-n1 {
+    margin: 20px;
+    border: 1px red solid;
+    text-align: justify;
+    text-indent: 30px;
 }
 
 .art-l {
@@ -26,4 +52,10 @@ main {
     display: flex;
     justify-content: center; 
     align-items: center;
+}
+
+
+/* Ноги */ 
+footer {
+    background-color: green;
 }
