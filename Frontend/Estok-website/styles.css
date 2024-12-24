@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 /* Голова */ 
 
 header {
     background-color: black;
     color: white;
     margin: 0 0 15px 0;
+=======
+areahtml, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+>>>>>>> f9f8db165cabd6901c8a02f7b7980cd49e00f1ea
 }
 
 .header-section {
