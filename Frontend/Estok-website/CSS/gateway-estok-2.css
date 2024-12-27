@@ -1,0 +1,55 @@
+/* Тело */ 
+main {
+    background-color: rgb(197, 196, 196);
+    color: white;
+    height: 1920px;
+}
+
+.sovm {
+    display: flex;
+    height: 1025px;
+}
+
+#p-n1 {
+    margin: 20px 0 20px 0;
+    border: 1px red solid;
+    text-align: justify;
+    text-indent: 30px;
+    background-color:rgb(240, 199, 64);
+}
+
+.art-l {
+    background-color:rgb(208, 248, 174);
+    display: flex;
+    border: 1px solid red;
+    margin: 20px;
+    width: 1420px;
+}
+
+.art-l section {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 30px;
+    margin: 30px 120px;
+    border: 1px green solid;
+}
+
+#Login {
+    padding: 30px 60px;
+    border: 1px solid red;
+}
+
+#Register {
+    padding: 30px 20px;
+    border: 1px solid red;
+}
+
+.right-n {
+    background-color:rgb(48, 152, 184);
+    border: 1px solid red;
+}
+
+.right-n .acide-right {
+    border: 1px solid red;
+}

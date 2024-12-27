@@ -1,0 +1,51 @@
+/* Голова */ 
+
+header {
+    background-color: black;
+    color: white;
+    margin: 0 0 15px 0;
+}
+
+.section-header {
+    display: flex;
+}
+
+.title-section {
+    border: 1px solid white;
+    padding: 0px 260px 0px 40px;
+    display: flex;
+}
+
+.title-section a {
+    padding: 13px 0px 0px 15px;
+    color: rgb(228, 247, 252);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.title-section a+a {
+    color: rgb(233, 210, 210);
+}
+
+.header-section {
+    width: 1800px;
+    border: 1px solid rgb(251, 255, 35);
+}
+
+nav.header-navigation {
+    padding: 0 0 0 420px;
+}
+
+ul.header-ul {
+    display: flex;
+    gap: 68px;
+}
+
+ul.header-ul>li {
+    list-style-type: none;
+}
+
+ul.header-ul>li>a {
+    text-decoration: none;
+    color: rgb(177, 224, 220)
+}
