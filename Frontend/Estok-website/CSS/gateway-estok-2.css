@@ -7,7 +7,7 @@ main {
 
 .sovm {
     display: flex;
-    height: 1025px;
+    height: 1910px;
 }
 
 #p-n1 {
@@ -22,7 +22,7 @@ main {
     background-color:rgb(208, 248, 174);
     display: flex;
     border: 1px solid red;
-    margin: 20px;
+    margin: 0 20px;
     width: 1420px;
 }
 
@@ -36,20 +36,22 @@ main {
 }
 
 #Login {
+    height: 100px;
     padding: 30px 60px;
     border: 1px solid red;
 }
 
 #Register {
+    height: 100px;
     padding: 30px 20px;
     border: 1px solid red;
 }
 
-.right-n {
+.right-l {
     background-color:rgb(48, 152, 184);
     border: 1px solid red;
 }
 
-.right-n .acide-right {
+.right-l .acide-right {
     border: 1px solid red;
 }
