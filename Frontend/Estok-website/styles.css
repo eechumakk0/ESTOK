@@ -54,12 +54,13 @@ ul.header-ul>li>a {
 
 /* Тело */ 
 main {
-    background-color: rgb(109, 98, 98);
+    background-color: rgb(197, 196, 196);
     color: white;
+    height: 1920px;
 }
 
 #p-n1 {
-    margin: 20px;
+    margin: 10px 0 20px 0;
     border: 1px red solid;
     text-align: justify;
     text-indent: 30px;
@@ -83,13 +84,21 @@ main {
 
 #Login {
     padding: 30px 70px;
+    border: 1px solid red;
 }
 
 #Register {
     padding: 30px;
+    border: 1px solid red;
 }
 
+.right-n {
+    border: 1px solid red;
+}
 
+.right-n .acide-right {
+    border: 1px solid red;
+}
 
 
 
