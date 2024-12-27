@@ -12,13 +12,24 @@ header {
 
 .title-section {
     border: 1px solid white;
-    padding: 3px 260px 3px 40px;
+    padding: 0px 260px 0px 40px;
+    display: flex;
+}
+
+.title-section a {
+    padding: 13px 0px 0px 15px;
+    color: rgb(228, 247, 252);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.title-section a+a {
+    color: rgb(233, 210, 210);
 }
 
 .header-section {
     width: 1800px;
     border: 1px solid rgb(251, 255, 35);
-    padding: 10px 0 0 0;
 }
 
 nav.header-navigation {
