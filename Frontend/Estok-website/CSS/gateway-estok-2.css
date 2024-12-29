@@ -15,18 +15,22 @@ main {
     border: 1px red solid;
     text-align: justify;
     text-indent: 30px;
-    background-color:rgb(240, 199, 64);
+    background-color:rgb(27, 24, 11);
 }
 
 .art-l {
+    border: 1px solid black;
+}
+
+.art-l2 {
     background-color:rgb(208, 248, 174);
     display: flex;
-    border: 1px solid red;
+    border: 1px solid rgb(248, 220, 220);
     margin: 0 20px;
     width: 1420px;
 }
 
-.art-l section {
+.art-l2 section {
     display: flex;
     justify-content: center; 
     align-items: center;

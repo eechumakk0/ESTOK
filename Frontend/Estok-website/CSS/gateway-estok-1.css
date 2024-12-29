@@ -8,29 +8,35 @@ header {
 
 .section-header {
     display: flex;
-    padding: 12px;
+    padding: 15px;
+    background: linear-gradient(
+        to top right, 
+        pink 18%, 
+        rgb(196, 155, 185),
+        rgb(128, 133, 72) 71% );
 }
 
 .title-section {
-    border: 1px solid white;
+    border: 1px solid rgb(141, 78, 78);
     padding: 0px 260px 0px 40px;
     display: flex;
 }
 
 .title-section a {
     padding: 13px 0px 0px 15px;
-    color: rgb(228, 247, 252);
+    color: rgb(139, 167, 175);
     font-size: 25px;
     text-decoration: none;
 }
 
-.title-section a+a {
-    color: rgb(233, 210, 210);
+.title-section a + a {
+    color: rgb(17, 31, 20);
+    margin: 0 0 0 10px;
 }
 
 .header-section {
     width: 1800px;
-    border: 1px solid rgb(251, 255, 35);
+    border: 1px solid rgb(125, 126, 100);
 }
 
 nav.header-navigation {
